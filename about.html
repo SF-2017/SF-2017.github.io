@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="about_title"></title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-buttons">
+            <button id="back-button" data-lang="back_button"></button>
+            <div class="controls">
+                <button id="theme-toggle">🌙</button>
+                <select id="language-selector">
+                    <option value="zh-CN">简体中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+        <h1 data-lang="about_title"></h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2 data-lang="about_company"></h2>
+            <p data-lang="about_text"></p>
+        </div>
+        
+        <div class="card">
+            <h2 data-lang="team_title"></h2>
+            <p data-lang="team_text"></p>
+        </div>
+        
+        <div class="card">
+            <h2 data-lang="values_title"></h2>
+            <ul>
+                <li data-lang="value1"></li>
+                <li data-lang="value2"></li>
+                <li data-lang="value3"></li>
+                <li data-lang="value4"></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/lang.js"></script>
+</body>
+</html>

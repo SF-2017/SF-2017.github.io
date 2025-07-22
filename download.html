@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="download_title"></title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* 下载页特有样式 */
+        .download-card {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .download-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+        
+        .download-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .download-info {
+            flex: 1;
+        }
+        
+        .download-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 0.9em;
+            color: var(--secondary-color);
+            margin-top: 5px;
+        }
+        
+        .download-btn {
+            padding: 8px 20px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .download-btn:hover {
+            background-color: #0069d9;
+        }
+        
+        .version-badge {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-buttons">
+            <button id="back-button"></button>
+            <div class="controls">
+                <button id="theme-toggle">🌙</button>
+                <select id="language-selector">
+                    <option value="zh-CN">简体中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+        <h1 data-lang="download_title"></h1>
+    </header>
+
+    <div class="container">
+        <div class="card download-card">
+            <h2 data-lang="product_title"></h2>
+            
+            <div class="download-item">
+                <div class="download-info">
+                    <h3></h3>
+                    <p data-lang="product1_desc"></p>
+                    <div class="download-meta">
+                        <span data-lang="file_size"></span>
+                        <span data-lang="update_time"></span>
+                    </div>
+                </div>
+                <button class="download-btn" data-lang="download_btn"></button>
+            </div>
+            
+            <div class="download-item">
+                <div class="download-info">
+                    <h3></h3>
+                    <p data-lang="product2_desc"></p>
+                    <div class="download-meta">
+                        <span data-lang="file_size"></span>
+                        <span data-lang="update_time"></span>
+                    </div>
+                </div>
+                <button class="download-btn" data-lang="download_btn"></button>
+            </div>
+            
+            <div class="download-item">
+                <div class="download-info">
+                    <h3></h3>
+                    <p data-lang="product3_desc"></p>
+                    <div class="download-meta">
+                        <span data-lang="file_size"></span>
+                        <span data-lang="update_time"></span>
+                    </div>
+                </div>
+                <button class="download-btn" data-lang="download_btn"></button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2 data-lang="system_req"></h2>
+            <ul>
+                <li data-lang="req1"></li>
+                <li data-lang="req2"></li>
+                <li data-lang="req3"></li>
+                <li data-lang="req4"></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/lang.js"></script>
+    <script>
+        // 下载按钮点击事件
+        document.querySelectorAll('.download-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const productName = this.closest('.download-item').querySelector('h3').textContent;
+                alert(`开始下载: ${productName}`);
+                // 实际应用中这里应该是文件下载链接
+            });
+        });
+    </script>
+</body>
+</html>
