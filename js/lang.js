@@ -3,7 +3,7 @@ const translations = {
         // 通用
         'page_title': 'Homepage',
         'company_name': 'SF',
-        'company_slogan': 'Innovative Technology, Leading the Future',
+        'company_slogan': 'Caring for Today, Building for Tomorrow',
         'back': 'Back',
         'copyright': 'All Rights Reserved',
         
@@ -12,7 +12,6 @@ const translations = {
         'nav_about': 'About',
         'nav_studio': 'Studio',
         'nav_download': 'Software Downloads',
-        'nav_announcements': 'Announcements',
         
         // 首页
         'welcome_title': 'Welcome to SF',
@@ -47,39 +46,6 @@ const translations = {
         'req3': '2GB Storage',
         'req4': 'Stable Internet Connection',
         
-        // 公告页
-        'announcements_title': 'Announcements',
-        'category_update': 'Update',
-        'category_event': 'Event',
-        'category_maintenance': 'Maintenance',
-        'category_news': 'News',
-        'read_more': 'Read More →',
-        'page_title': 'SF - Announcements',
-        'back_button': 'Back',
-        'loading_text': 'Loading...',
-        'no_announcements': 'No announcements',
-        'next_page': 'Next Page',
-        'announcement1_title': 'Spring Testing',
-        'announcement1_content': 'Welcome to participate in the spring testing to round off a successful spring!',
-        'announcement2_title': '2025 Annual Developer Conference',
-        'announcement2_content': 'You are cordially invited to SF\'s annual developer conference to learn about the latest technology trends and products.',
-        'announcement3_title': '2025 Annual Game Conference',
-        'announcement3_content': 'You are cordially invited to SF\'s annual game conference.',
-        'announcement4_title': 'Standardized Documentation Progress',
-        'announcement4_content': 'SF is advancing standardized documentation work and replacing old documents.',
-        'announcement5_title': '🌏 Summer Green Initiative',
-        'announcement5_content': 'Summer is coming. Use air conditioning reasonably, print double-sided documents, save water... Let\'s make the Earth a better place!',
-        'announcement6_title': '📅 Labor Day Holiday Arrangement',
-        'announcement6_content': 'Labor Day holiday from May 1st to May 5th.',
-        'announcement7_title': '📅 Dragon Boat Festival Holiday Arrangement',
-        'announcement7_content': 'Dragon Boat Festival holiday from May 31st to June 2nd.',
-        'announcement8_title': '📅 National Day Holiday Arrangement',
-        'announcement8_content': 'National Day holiday from October 1st to October 7th.',
-        'announcement9_title': 'SF Web 6.2 Update',
-        'announcement9_content': 'SF is updating the website. Please pay attention to the notifications!',
-        'announcement10_title': 'Teams Migration',
-        'announcement10_content': 'SF is moving remaining content to Teams.',
-        
         // 工作室页
         'studio_title': 'Studio',
         'studio_slogan': 'The Perfect Fusion of Creativity and Technology',
@@ -106,7 +72,7 @@ const translations = {
         // 通用
         'page_title': '主页',
         'company_name': 'SF',
-        'company_slogan': '创新科技，引领未来',
+        'company_slogan': '心系当下，共建明天',
         'back': '返回',
         'copyright': '版权所有',
         
@@ -115,7 +81,6 @@ const translations = {
         'nav_about': '关于',
         'nav_studio': '工作室',
         'nav_download': '软件下载',
-        'nav_announcements': '公告栏',
         
         // 首页
         'welcome_title': '欢迎来到SF',
@@ -149,39 +114,6 @@ const translations = {
         'req2': '4GB 内存',
         'req3': '2GB 存储',
         'req4': '稳定的网络连接',
-        
-        // 公告页
-        'announcements_title': '公告',
-        'category_update': '更新',
-        'category_event': '活动',
-        'category_maintenance': '维护',
-        'category_news': '新闻',
-        'read_more': '查看更多 →',
-        'page_title': 'SF',
-        'back_button': '返回',
-        'loading_text': '加载中...',
-        'no_announcements': '暂无公告',
-        'next_page': '下一页',
-        'announcement1_title': '春季度测试',
-        'announcement1_content': '欢迎参加春季度测试，为春天画上一个圆满的句号！',
-        'announcement2_title': '2025年度开发者大会',
-        'announcement2_content': '诚邀您参加SF的年度开发者大会，了解最新技术趋势和产品。',
-        'announcement3_title': '2025年度游戏大会',
-        'announcement3_content': '诚邀您参加SF的年度游戏大会。',
-        'announcement4_title': '标准化文件建设推进',
-        'announcement4_content': 'SF正在推进标准化文件工作，更换旧的文件。',
-        'announcement5_title': '🌏夏季绿色倡议',
-        'announcement5_content': '夏季即将来临，合理使用空调，双面打印文件，节约用水……让我们把地球建设的更好！',
-        'announcement6_title': '📅劳动节放假安排',
-        'announcement6_content': '5月1日-5月5日劳动节放假。',
-        'announcement7_title': '📅端午节放假安排',
-        'announcement7_content': '5月31日-6月2日端午节放假。',
-        'announcement8_title': '📅国庆节放假安排',
-        'announcement8_content': '10月1日-10月7日国庆节放假。',
-        'announcement9_title': 'SF Web 6.2更新',
-        'announcement9_content': 'SF正在更新网站，请留意通知！',
-        'announcement10_title': 'Teams建设',
-        'announcement10_content': 'SF正在将剩余的内容移动到Teams。',
         
         // 工作室页
         'studio_title': '工作室',
